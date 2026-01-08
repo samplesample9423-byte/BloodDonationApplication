@@ -1,0 +1,76 @@
+{
+  "donors": [
+    {
+      "id": "_abc123",
+      "name": "John Doe",
+      "age": "25",
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "phone": "1234567890",
+      "email": "john@example.com",
+      "city": "New York",
+      "lastDonation": "2023-10-01"
+    },
+    {
+      "id": "_xyz789",
+      "name": "Jane Smith",
+      "age": "30",
+      "gender": "Female",
+      "bloodGroup": "A-",
+      "phone": "0987654321",
+      "email": "jane@example.com",
+      "city": "Los Angeles",
+      "lastDonation": "2024-01-15"
+    }
+  ],
+  "requests": [
+    {
+      "id": "_req001",
+      "name": "Sarah Connor",
+      "bloodGroup": "O-",
+      "units": "2",
+      "city": "San Francisco",
+      "phone": "1112223333",
+      "date": "2024-05-25"
+    }
+  ],
+  "admins": [
+    {
+      "id": "de5b",
+      "username": "Aditya045",
+      "password": "12345"
+    }
+  ],
+  "activities": [
+    {
+      "id": "ea2d",
+      "action": "Admin logged in: Timepass",
+      "timestamp": "8/1/2026, 5:14:30 pm"
+    },
+    {
+      "id": "ac74",
+      "action": "Admin exported donor list to CSV",
+      "timestamp": "8/1/2026, 5:14:45 pm"
+    },
+    {
+      "id": "0a25",
+      "action": "New donor registered: Parth Gopal Patil (O+)",
+      "timestamp": "8/1/2026, 7:29:34 pm"
+    },
+    {
+      "id": "7e82",
+      "action": "Admin logged in: Aditya045",
+      "timestamp": "8/1/2026, 7:30:01 pm"
+    },
+    {
+      "id": "4781",
+      "action": "Admin deleted a donor",
+      "timestamp": "8/1/2026, 7:30:33 pm"
+    },
+    {
+      "id": "9eb3",
+      "action": "Admin logged in: Aditya045",
+      "timestamp": "8/1/2026, 7:39:54 pm"
+    }
+  ]
+}
