@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Management System</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-heartbeat"></i> BloodLink
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="search.html">Find Donor</a></li>
+            <li><a href="request.html">Request Blood</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Admin</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Donate Blood, Save Lives</h1>
+            <p>Your contribution can make a difference. Join our community of heroes today.</p>
+            <div class="hero-buttons">
+                <a href="search.html" class="btn btn-primary">Find Donor</a>
+                <a href="register.html" class="btn btn-secondary">Become a Donor</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature-card">
+            <i class="fas fa-search"></i>
+            <h3>Find Donors</h3>
+            <p>Easily search for blood donors in your city by blood group.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-user-plus"></i>
+            <h3>Register</h3>
+            <p>Sign up to become a donor and help those in need.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-users"></i>
+            <h3>Save Lives</h3>
+            <p>Connect with people and be a part of a life-saving network.</p>
+        </div>
+    </section>
+
+    <section class="features" style="padding-top: 0;">
+        <div class="feature-card" style="width: 100%; max-width: 600px; text-align: left;">
+            <h3>Security Features</h3>
+            <ul style="margin-top: 1rem; padding-left: 1.2rem;">
+                <li>Makes admin login harder to brute force by adding lockout after repeated failures.</li>
+                <li>Removes direct exposure of credentials on the login page, so only people who already know them can log in.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Blood Donation Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
